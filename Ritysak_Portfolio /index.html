@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ritysak — Designer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<div class="cursorGlow" id="cursorGlow"></div>
+
+<script>
+  const glow = document.getElementById("cursorGlow");
+
+  window.addEventListener("mousemove", (e) => {
+    glow.style.left = e.clientX + "px";
+    glow.style.top  = e.clientY + "px";
+  });
+</script>
+
+<body>
+
+<!-- HEADER -->
+<header class="top">
+  <div class="brand">
+    <img class="avatar" src="image/profile.png" alt="Ritysak profile photo" />
+    <div class="name">
+      <h1>Ritysak</h1>
+      <p>Motion • 3D • Design</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="btn">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Design that grabs attention and drives results.</h2>
+  <p>
+    I create motion graphics, 3D visuals, and branding that help businesses
+    stand out, tell their story, and connect with their audience.
+  </p>
+
+  <div class="heroActions">
+    <a class="btn" href="#work">View Portfolio</a>
+    <a class="ghost" href="#contact">Let’s Work Together</a>
+  </div>
+
+  <div class="badges">
+    <span class="badge">Motion Graphics</span>
+    <span class="badge">3D Design</span>
+    <span class="badge">Brand Identity</span>
+  </div>
+</section>
+
+
+<!-- PORTFOLIO -->
+<section id="work" class="section">
+  <div class="sectionHead">
+    <h3>Selected Work</h3>
+    <p>Motion, 3D, branding, posters, and social content.</p>
+  </div>
+
+  <div class="grid">
+
+    <!-- Card 1 -->
+    <!-- Card 1 Motion Video -->
+<a class="card" href="video/Sequence 02.mp4" target="_blank">
+
+  <video class="thumbVideo"
+    src="video/Sequence 02.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata">
+  </video>
+
+  <div class="meta">
+    <strong>Motion Graphic</strong>
+    <span>Demo reel • Click to watch full</span>
+  </div>
+
+</a>
+
+
+    <!-- Card 2 -->
+    <!-- Card 2 3D Gallery -->
+<!-- Card 2 3D Gallery -->
+<div class="card posterCard">
+  <div class="posterGallery">
+
+    <a href="image/Ritysak_portfolio-19.jpg" target="_blank">
+      <img src="image/Ritysak_portfolio-19.jpg" alt="3D work">
+    </a>
+
+    <a href="image/Ritysak_portfolio-20.jpg" target="_blank">
+      <img src="image/Ritysak_portfolio-20.jpg" alt="3D work">
+    </a>
+
+    <a href="image/Ritysak_portfolio-21.jpg" target="_blank">
+      <img src="image/Ritysak_portfolio-21.jpg" alt="3D work">
+    </a>
+
+    <a href="image/Ritysak_portfolio-22.jpg" target="_blank">
+      <img src="image/Ritysak_portfolio-22.jpg" alt="3D work">
+    </a>
+
+  </div>
+
+  <div class="meta">
+    <strong>3D</strong>
+    <span>Blender renders • Swipe to view</span>
+  </div>
+</div>
+
+    <!-- Card 3 Poster Gallery -->
+    <div class="card posterCard">
+      <div class="posterGallery">
+
+        <a href="image/Ritysak_portfolio-05.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-05.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-06.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-06.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-07.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-07.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-08.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-08.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-09.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-09.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-10.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-10.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-11.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-11.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-12.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-12.jpg" alt="Poster">
+        </a>
+
+        <a href="image/Ritysak_portfolio-13.jpg" target="_blank">
+          <img src="image/Ritysak_portfolio-13.jpg" alt="Poster">
+        </a>
+
+      </div>
+
+      <div class="meta">
+        <strong>Poster Design</strong>
+        <span>Swipe to see posters</span>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+  <!-- Card 4 Branding -->
+<a class="card" href="image/Rebanding.jpg" target="_blank">
+
+  <img class="thumbImg"
+       src="image/Rebanding.jpg"
+       alt="Brand Identity">
+
+  <div class="meta">
+    <strong>Brand Identity</strong>
+    <span>Logo • Guidelines • Visual System</span>
+  </div>
+
+</a>
+
+  <div class="note">
+    Tip: replace each card link with your TikTok / Drive / Behance links.
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="sectionHead">
+    <h3>About</h3>
+  </div>
+
+  <div class="about">
+    <p>
+      I’m a designer focused on visual storytelling. I combine marketing thinking
+      with strong visuals to help brands communicate clearly and attract attention.
+    </p>
+
+    <ul class="bullets">
+      <li>Motion graphics for ads & social media</li>
+      <li>3D mockups & logo animation</li>
+      <li>Poster campaigns & marketing visuals</li>
+      <li>Brand identity systems</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="sectionHead">
+    <h3>Contact</h3>
+    <p>Send me a message — I reply fast.</p>
+  </div>
+
+  <div class="contact">
+    <a class="btn" href="mailto:dayka0446@gmail.com">Email Me</a>
+    <a class="ghost" href="https://www.tiktok.com/@dayka_seven" target="_blank">TikTok</a>
+    <a class="ghost" href="#">LinkedIn</a>
+    <a class="ghost" href="#">WhatsApp</a>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© <span id="y"></span> Ritysak • CTRL Z</p>
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
