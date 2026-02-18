@@ -6,299 +6,243 @@
   <title>Ritysak — Designer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<div class="cursorGlow" id="cursorGlow"></div>
-
-<script>
-  const glow = document.getElementById("cursorGlow");
-
-  window.addEventListener("mousemove", (e) => {
-    glow.style.left = e.clientX + "px";
-    glow.style.top  = e.clientY + "px";
-  });
-</script>
 
 <body>
 
-<!-- HEADER -->
-<header class="top">
-  <div class="brand">
-    <img class="avatar" src="image/profile.png" alt="Ritysak profile photo" />
-    <div class="name">
-      <h1>Ritysak</h1>
-      <p>Motion • 3D • Design</p>
-    </div>
-  </div>
+  <!-- Cursor Glow (must be inside body) -->
+  <div class="cursorGlow" id="cursorGlow"></div>
 
-  <nav class="nav">
-  <a href="#experience">Experience</a>
-  <a href="#work">Work</a>
-  <a href="#about">About</a>
-  <a href="#contact" class="btn">Contact</a>
-</nav>
-</header>
-
-<main>
-
-<!-- HERO -->
-<section class="hero">
-  <h2>Design that grabs attention and drives results.</h2>
-  <p>
-    I create motion graphics, 3D visuals, and branding that help businesses
-    stand out, tell their story, and connect with their audience.
-  </p>
-
-  <div class="heroActions">
-    <a class="btn" href="#work">View Portfolio</a>
-    <a class="ghost" href="#contact">Let’s Work Together</a>
-  </div>
-
-  <div class="badges">
-    <span class="badge">Motion Graphics</span>
-    <span class="badge">3D Design</span>
-    <span class="badge">Brand Identity</span>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section">
-  <div class="sectionHead">
-    <h3>Experience</h3>
-    <p>Studios, agencies, and brands I’ve worked with.</p>
-  </div>
-
-  <div class="exp">
-
-    <div class="expItem">
-      <div class="expTop">
-        <strong>ithinkasia</strong>
-        <span>2019 – 2020 • Animator (Full-time)</span>
+  <!-- HEADER -->
+  <header class="top">
+    <div class="brand">
+      <img class="avatar" src="image/profile.png" alt="Ritysak profile photo" />
+      <div class="name">
+        <h1>Ritysak</h1>
+        <p>Motion • 3D • Design</p>
       </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h2>Design that grabs attention and drives results.</h2>
       <p>
-        Worked on animation projects delivered to global entertainment clients including Netflix, Disney, and Warner Bros through studio pipelines.
+        I create motion graphics, 3D visuals, and branding that help businesses
+        stand out, tell their story, and connect with their audience.
       </p>
-    </div>
 
-    <div class="expItem">
-      <div class="expTop">
-        <strong>Hong Leong Bank <em>(via Minimalist Creatives)</em></strong>
-        <span>2020 – 2021 • Motion Graphic Designer (Freelance)</span>
-      </div>
-      <p>
-        Produced motion graphics, digital visuals, and branded assets for marketing and communication campaigns.
-      </p>
-    </div>
-
-    <div class="expItem">
-      <div class="expTop">
-        <strong>DKSH (Diethelm Keller Siber Hegner)</strong>
-        <span>2021 – 2023 • Senior Graphic Designer (Full-time)</span>
-      </div>
-      <p>
-        Delivered monthly design content, animations, 3D props, event mockups, and brand visuals for multiple brands (Hiruscar, Avène, Tiger Balm, Berocca, Tylenol, and more).
-      </p>
-    </div>
-
-    <div class="expItem">
-      <div class="expTop">
-        <strong>Influence Agency</strong>
-        <span>2023 – 2025 • Senior Graphic Designer (Full-time)</span>
-      </div>
-      <p>
-        Handled graphic design, motion graphics, 3D animation, and video editing for large-scale campaigns and brands (Liberty Carz, Miss Cosmo 2025, Vigor Energy Drink, and more).
-      </p>
-    </div>
-
-    <div class="expItem">
-      <div class="expTop">
-        <strong>CTRL Z Agency <em>(Startup)</em></strong>
-        <span>2025 – Present • Founder & Art Director</span>
-      </div>
-      <p>
-        Founded and lead CTRL Z Agency, managing creative and operational aspects of the business.
-      </p>
-      <ul class="expBullets">
-        <li>Recruiting and leading a creative team</li>
-        <li>Writing and planning creative content and concepts</li>
-        <li>Overseeing branding, design, motion, and 3D direction</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- PORTFOLIO -->
-<section id="work" class="section">
-  <div class="sectionHead">
-    <h3>Selected Work</h3>
-    <p>Motion, 3D, branding, posters, and social content.</p>
-  </div>
-
-  <div class="grid">
-
-    <!-- Card 1 -->
-    <!-- Card 1 Motion Video -->
-<a class="card" href="video/Sequence 02.mp4" target="_blank">
-
-  <video class="thumbVideo"
-    src="video/Sequence 02.mp4"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="metadata">
-  </video>
-
-  <div class="meta">
-    <strong>Motion Graphic</strong>
-    <span>Demo reel • Click to watch full</span>
-  </div>
-
-</a>
-
-
-    <!-- Card 2 -->
-    <!-- Card 2 3D Gallery -->
-<!-- Card 2 3D Gallery -->
-<div class="card posterCard">
-  <div class="posterGallery">
-
-    <a href="image/Ritysak_portfolio-19.jpg" target="_blank">
-      <img src="image/Ritysak_portfolio-19.jpg" alt="3D work">
-    </a>
-
-    <a href="image/Ritysak_portfolio-20.jpg" target="_blank">
-      <img src="image/Ritysak_portfolio-20.jpg" alt="3D work">
-    </a>
-
-    <a href="image/Ritysak_portfolio-21.jpg" target="_blank">
-      <img src="image/Ritysak_portfolio-21.jpg" alt="3D work">
-    </a>
-
-    <a href="image/Ritysak_portfolio-22.jpg" target="_blank">
-      <img src="image/Ritysak_portfolio-22.jpg" alt="3D work">
-    </a>
-
-  </div>
-
-  <div class="meta">
-    <strong>3D</strong>
-    <span>Blender renders • Swipe to view</span>
-  </div>
-</div>
-
-    <!-- Card 3 Poster Gallery -->
-    <div class="card posterCard">
-      <div class="posterGallery">
-
-        <a href="image/Ritysak_portfolio-05.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-05.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-06.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-06.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-07.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-07.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-08.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-08.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-09.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-09.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-10.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-10.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-11.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-11.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-12.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-12.jpg" alt="Poster">
-        </a>
-
-        <a href="image/Ritysak_portfolio-13.jpg" target="_blank">
-          <img src="image/Ritysak_portfolio-13.jpg" alt="Poster">
-        </a>
-
+      <div class="heroActions">
+        <a class="btn" href="#work">View Portfolio</a>
+        <a class="ghost" href="#contact">Let’s Work Together</a>
       </div>
 
-      <div class="meta">
-        <strong>Poster Design</strong>
-        <span>Swipe to see posters</span>
+      <div class="badges">
+        <span class="badge">Motion Graphics</span>
+        <span class="badge">3D Design</span>
+        <span class="badge">Brand Identity</span>
       </div>
-    </div>
+    </section>
 
-    <!-- Card 4 -->
-  <!-- Card 4 Branding -->
-<a class="card" href="image/Rebanding.jpg" target="_blank">
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="sectionHead">
+        <h3>Experience</h3>
+        <p>Studios, agencies, and brands I’ve worked with.</p>
+      </div>
 
-  <img class="thumbImg"
-       src="image/Rebanding.jpg"
-       alt="Brand Identity">
+      <div class="exp">
 
-  <div class="meta">
-    <strong>Brand Identity</strong>
-    <span>Logo • Guidelines • Visual System</span>
-  </div>
+        <div class="expItem">
+          <div class="expTop">
+            <strong>ithinkasia</strong>
+            <span>2019 – 2020 • Animator (Full-time)</span>
+          </div>
+          <p>
+            Worked on animation projects delivered to global entertainment clients including Netflix, Disney, and Warner Bros through studio pipelines.
+          </p>
+        </div>
 
-</a>
+        <div class="expItem">
+          <div class="expTop">
+            <strong>Hong Leong Bank <em>(via Minimalist Creatives)</em></strong>
+            <span>2020 – 2021 • Motion Graphic Designer (Freelance)</span>
+          </div>
+          <p>
+            Produced motion graphics, digital visuals, and branded assets for marketing and communication campaigns.
+          </p>
+        </div>
 
-  
-</section>
+        <div class="expItem">
+          <div class="expTop">
+            <strong>DKSH (Diethelm Keller Siber Hegner)</strong>
+            <span>2021 – 2023 • Senior Graphic Designer (Full-time)</span>
+          </div>
+          <p>
+            Delivered monthly design content, animations, 3D props, event mockups, and brand visuals for multiple brands (Hiruscar, Avène, Tiger Balm, Berocca, Tylenol, and more).
+          </p>
+        </div>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <div class="sectionHead">
-    <h3>About</h3>
-  </div>
+        <div class="expItem">
+          <div class="expTop">
+            <strong>Influence Agency</strong>
+            <span>2023 – 2025 • Senior Graphic Designer (Full-time)</span>
+          </div>
+          <p>
+            Handled graphic design, motion graphics, 3D animation, and video editing for large-scale campaigns and brands (Liberty Carz, Miss Cosmo 2025, Vigor Energy Drink, and more).
+          </p>
+        </div>
 
-  <div class="about">
-    <p>
-      I’m a designer focused on visual storytelling. I combine marketing thinking
-      with strong visuals to help brands communicate clearly and attract attention.
-    </p>
+        <div class="expItem">
+          <div class="expTop">
+            <strong>CTRL Z Agency <em>(Startup)</em></strong>
+            <span>2025 – Present • Founder & Art Director</span>
+          </div>
+          <p>
+            Founded and lead CTRL Z Agency, managing creative and operational aspects of the business.
+          </p>
+          <ul class="expBullets">
+            <li>Recruiting and leading a creative team</li>
+            <li>Writing and planning creative content and concepts</li>
+            <li>Overseeing branding, design, motion, and 3D direction</li>
+          </ul>
+        </div>
 
-    <ul class="bullets">
-      <li>Motion graphics for ads & social media</li>
-      <li>3D mockups & logo animation</li>
-      <li>Poster campaigns & marketing visuals</li>
-      <li>Brand identity systems</li>
-    </ul>
-  </div>
-</section>
+      </div>
+    </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <div class="sectionHead">
-    <h3>Contact</h3>
-    <p>Send me a message — I reply fast.</p>
-  </div>
+    <!-- PORTFOLIO -->
+    <section id="work" class="section">
+      <div class="sectionHead">
+        <h3>Selected Work</h3>
+        <p>Motion, 3D, branding, posters, and social content.</p>
+      </div>
 
-  <div class="contact">
-  <a class="btn" href="mailto:dayka0446@gmail.com">Email Me</a>
-  <a class="ghost" href="https://www.tiktok.com/@dayka_seven" target="_blank">TikTok</a>
-  <a class="ghost" href="https://www.linkedin.com/in/ritysak-phai-5a09993a9/" target="_blank">LinkedIn</a>
-  <a class="ghost" href="https://wa.me/85569779566" target="_blank">WhatsApp</a>
-</div>
-</section>
+      <div class="grid">
 
-</main>
+        <!-- Card 1 Motion Video -->
+        <a class="card" href="video/Sequence 02.mp4" target="_blank">
+          <video class="thumbVideo"
+            src="video/Sequence 02.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata">
+          </video>
+          <div class="meta">
+            <strong>Motion Graphic</strong>
+            <span>Demo reel • Click to watch full</span>
+          </div>
+        </a>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <p>© <span id="y"></span> Ritysak • CTRL Z</p>
-</footer>
+        <!-- Card 2 3D Gallery -->
+        <div class="card posterCard">
+          <div class="posterGallery">
+            <a href="image/Ritysak_portfolio-19.jpg" target="_blank"><img src="image/Ritysak_portfolio-19.jpg" alt="3D work"></a>
+            <a href="image/Ritysak_portfolio-20.jpg" target="_blank"><img src="image/Ritysak_portfolio-20.jpg" alt="3D work"></a>
+            <a href="image/Ritysak_portfolio-21.jpg" target="_blank"><img src="image/Ritysak_portfolio-21.jpg" alt="3D work"></a>
+            <a href="image/Ritysak_portfolio-22.jpg" target="_blank"><img src="image/Ritysak_portfolio-22.jpg" alt="3D work"></a>
+          </div>
+          <div class="meta">
+            <strong>3D</strong>
+            <span>Blender renders • Swipe to view</span>
+          </div>
+        </div>
 
-<script>
-  document.getElementById("y").textContent = new Date().getFullYear();
-</script>
+        <!-- Card 3 Poster Gallery -->
+        <div class="card posterCard">
+          <div class="posterGallery">
+            <a href="image/Ritysak_portfolio-05.jpg" target="_blank"><img src="image/Ritysak_portfolio-05.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-06.jpg" target="_blank"><img src="image/Ritysak_portfolio-06.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-07.jpg" target="_blank"><img src="image/Ritysak_portfolio-07.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-08.jpg" target="_blank"><img src="image/Ritysak_portfolio-08.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-09.jpg" target="_blank"><img src="image/Ritysak_portfolio-09.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-10.jpg" target="_blank"><img src="image/Ritysak_portfolio-10.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-11.jpg" target="_blank"><img src="image/Ritysak_portfolio-11.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-12.jpg" target="_blank"><img src="image/Ritysak_portfolio-12.jpg" alt="Poster"></a>
+            <a href="image/Ritysak_portfolio-13.jpg" target="_blank"><img src="image/Ritysak_portfolio-13.jpg" alt="Poster"></a>
+          </div>
+          <div class="meta">
+            <strong>Poster Design</strong>
+            <span>Swipe to see posters</span>
+          </div>
+        </div>
+
+        <!-- Card 4 Branding -->
+        <a class="card" href="image/Rebanding.jpg" target="_blank">
+          <img class="thumbImg" src="image/Rebanding.jpg" alt="Brand Identity">
+          <div class="meta">
+            <strong>Brand Identity</strong>
+            <span>Logo • Guidelines • Visual System</span>
+          </div>
+        </a>
+
+      </div> <!-- ✅ closes .grid -->
+    </section> <!-- ✅ closes #work -->
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="sectionHead">
+        <h3>About</h3>
+      </div>
+
+      <div class="about">
+        <p>
+          I’m a designer focused on visual storytelling. I combine marketing thinking
+          with strong visuals to help brands communicate clearly and attract attention.
+        </p>
+
+        <ul class="bullets">
+          <li>Motion graphics for ads & social media</li>
+          <li>3D mockups & logo animation</li>
+          <li>Poster campaigns & marketing visuals</li>
+          <li>Brand identity systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="sectionHead">
+        <h3>Contact</h3>
+        <p>Send me a message — I reply fast.</p>
+      </div>
+
+      <div class="contact">
+        <a class="btn" href="mailto:dayka0446@gmail.com">Email Me</a>
+        <a class="ghost" href="https://www.tiktok.com/@dayka_seven" target="_blank">TikTok</a>
+        <a class="ghost" href="https://www.linkedin.com/in/ritysak-phai-5a09993a9/" target="_blank">LinkedIn</a>
+        <a class="ghost" href="https://wa.me/85569779566" target="_blank">WhatsApp</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="y"></span> Ritysak • CTRL Z</p>
+  </footer>
+
+  <script>
+    // year
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    // cursor glow
+    const glow = document.getElementById("cursorGlow");
+    window.addEventListener("mousemove", (e) => {
+      glow.style.left = e.clientX + "px";
+      glow.style.top  = e.clientY + "px";
+    });
+  </script>
 
 </body>
 </html>
