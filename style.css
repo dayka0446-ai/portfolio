@@ -345,3 +345,22 @@ main{
   .about{ grid-template-columns:1fr; }
   .hero h2{ font-size:30px; }
 }
+  height:100%;
+  object-fit:cover;
+  border-radius:14px;
+  display:block;
+}
+
+/* scrollbar */
+.posterCard .posterGallery::-webkit-scrollbar{ height:8px; }
+.posterCard .posterGallery::-webkit-scrollbar-thumb{
+  background: rgba(255,255,255,.15);
+  border-radius:999px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width:720px){
+  .grid{ grid-template-columns:1fr; }
+  .about{ grid-template-columns:1fr; }
+  .hero h2{ font-size:30px; }
+}
