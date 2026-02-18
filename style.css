@@ -130,6 +130,51 @@ main{
 
 .sectionHead h3{ margin:0 0 8px; font-size:22px; }
 .sectionHead p{ margin:0; color:var(--muted); }
+/* ===== EXPERIENCE ===== */
+.exp{
+  margin-top:18px;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.expItem{
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.05);
+  border-radius:18px;
+  padding:16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+.expTop{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.expTop strong{
+  font-size:16px;
+}
+
+.expTop span{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.expItem p{
+  margin:10px 0 0;
+  color:var(--muted);
+  line-height:1.7;
+}
+
+.expBullets{
+  margin:10px 0 0;
+  padding-left:18px;
+  color:var(--muted);
+  line-height:1.9;
+}
 
 /* ===== GRID ===== */
 .grid{
