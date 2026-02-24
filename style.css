@@ -265,7 +265,6 @@ main{
 }
 
 /* Optional: hide scrollbar */
-.posterGallery::-webkit-scrollbar{ height:0; }
 
 /* ===== Meta footer inside cards ===== */
 .meta{
