@@ -264,6 +264,21 @@ main{
   display:block;
 }
 
+.posterGallery{
+  position: relative;
+}
+
+.posterGallery::after{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  width:60px;
+  height:100%;
+  pointer-events:none;
+  background: linear-gradient(to right, transparent, rgba(0,0,0,0.6));
+}
+
 /* Optional: hide scrollbar */
 
 /* ===== Meta footer inside cards ===== */
